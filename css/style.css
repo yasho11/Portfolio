@@ -636,15 +636,49 @@ box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
     line-height: 60px;
     color: var(--skin-color);
 }
+/* /////// */
+/* ///changed here//// */
+.service.service .service-item .service-item-inner .icon .fas
+{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+}
+
+.service.service .service-item .service-item-inner .icon .far
+{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+}
+/* /////// */
 .service .service-item .service-item-inner:hover .icon
 {
     background-color: var(--skin-color);
 }
+
 .service .service-item .service-item-inner:hover .icon .fa
 {
     font-size: 25px;
     color: #ffffff;
 }
+
+/* ////////////////// */
+/* ///changed here//// */
+.service .service-item .service-item-inner:hover .icon .fas
+{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.service .service-item .service-item-inner:hover .icon .far
+{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* ///////////////// */
+
 .service .service-item .service-item-inner h4
 {
     font-size: 18px;
